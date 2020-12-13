@@ -61,4 +61,6 @@ public class US_006_UserSettingsPage {
     public WebElement secondSignIn;
     //deneme
     //deneme2
+    //deneme3
+
 }
