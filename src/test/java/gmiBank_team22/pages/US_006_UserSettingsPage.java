@@ -59,4 +59,5 @@ public class US_006_UserSettingsPage {
 
     @FindBy (xpath = "//button[@type='submit']")
     public WebElement secondSignIn;
+    //deneme
 }
