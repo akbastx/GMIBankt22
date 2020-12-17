@@ -215,7 +215,7 @@ public class US_011_DateStep_Def {
     @Then("verify account is created with current date")
     public void verifyAccountIsCreatedWithCurrentDate() {
         Driver.waitForVisibility(dateobject.accountConfirmation, 15);
-        Assert.assertTrue( dateobject.accountConfirmation.isDisplayed());
+       Assert.assertTrue( dateobject.accountConfirmation.getText().contains("Customer"));
     }
 
     @Given("user leave userTextBox blank")
