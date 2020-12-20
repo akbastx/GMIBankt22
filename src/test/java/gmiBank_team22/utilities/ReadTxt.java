@@ -39,13 +39,13 @@ public class ReadTxt {
                 StringBuilder sb = new StringBuilder();
                 String line = br.readLine();
                 while (line != null) {
-//                Customer customer = new Customer();
-//                sb.append(line);
-//                sb.append(System.lineSeparator());
-//                line = br.readLine();
-//                customer.setSsn(line);
-//
-//                all.add(customer);
+  //              Customer customer = new Customer();
+  //              sb.append(line);
+ //               sb.append(System.lineSeparator());
+   //             line = br.readLine();
+   //             customer.setSsn(line);
+
+      //         all.add(customer);
                 }
                 String everything = sb.toString();
             }catch (Exception e){
@@ -64,7 +64,7 @@ public class ReadTxt {
                     sb.append(line);
                     sb.append(System.lineSeparator());
                     line = br.readLine();
-//                customer.setSsn(line);
+              // customer.setSsn(line);
                 }
                 String everything = sb.toString();
                 customer.setSsn(everything);
@@ -98,5 +98,26 @@ public class ReadTxt {
             return all;
         }
 
+    public static List<String> returnCustomerSNNList(String filePath){
+        List<String>all = new ArrayList<>();
+        try(BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+            StringBuilder sb = new StringBuilder();
+            String line = br.readLine();
+            System.out.println(line);
+            int i = 0;
+            while (line != null) {
+                Customer customer = new Customer();
+                customer.setSsn(line.split(",")[0]);
+                sb.append(System.lineSeparator());
+                line = br.readLine();
 
+             //   System.out.println(i++);
+
+                all.add(customer.getSsn());
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return all;
+    }
 }
