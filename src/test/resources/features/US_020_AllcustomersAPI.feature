@@ -9,9 +9,10 @@ Feature: System should allow to read all customers' information using the api en
     Scenario: Verify to read all customers' data set
 
       Then verify the number 20 that is equals to the customers'number created from user
-      Then write to all customers' "ssn","firstName" and  "lastName" in a .txt file
-      Then get all the information of the "5th customer"
-      Then verify that 5th customer's first name "Ally" and ssn "33880"
+      Then write the all customer's "firstName" and  "lastName" in a  file
+      Then write the all customer's "ssn" in a file and validate all the "ssn"
+
+
 
    @TC_002_OneByOneCustomerData
       Scenario: Verify the customer's data one by one
