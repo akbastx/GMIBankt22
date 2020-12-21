@@ -1,12 +1,12 @@
 package gmiBank_team22.step_Definitions;
 
 import gmiBank_team22.utilities.ConfigurationReader;
-import gmiBank_team22.utilities.Driver;
+
 import io.cucumber.java.en.*;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.junit.Assert;
+
 
 import java.util.List;
 import java.util.Map;
@@ -17,6 +17,7 @@ public class US_021_AllCountriesAPI_StepDefinitions {
 
     Response response;
     JsonPath json;
+    List<Map<String,Object>> allCountriesData;
 
     @Given("read all countries info using api end point {string}")
     public void read_all_countries_info_using_api_end_point(String string) {
@@ -30,10 +31,35 @@ public class US_021_AllCountriesAPI_StepDefinitions {
     @Then("get all countries")
     public void get_all_countries() {
         json = response.jsonPath();
+        allCountriesData = json.getList("$");
 
-        List<Map<String,Object>> allCountriesData = json.getList("$");
+        //read all countries
         System.out.println(allCountriesData);
-        Assert.assertNotNull(allCountriesData);
+
+        //read first countries data => {id=18938, name=Turkey, states=null}
+        System.out.println(allCountriesData.get(0));
+
+        //read 5th country id=> 18948
+        System.out.println(allCountriesData.get(4).get("id"));
+        String expectedId = (String) allCountriesData.get(4).get("id");
+
+
+        //read 8th country name => Dominic
+        System.out.println(allCountriesData.get(7).get("name"));
+        String expectedCountryName= allCountriesData.get(7).get("name").toString();
+
+        //read 3rd country state => null
+        System.out.println(allCountriesData.get(2).get("states"));
+        String expected3rdCountryState= allCountriesData.get(2).get("states").toString();
+
+
+
+
+
+
+
+
+
 
     }
 
