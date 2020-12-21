@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="42.809">
-<testcase classname="Money transfer should be available" name="Customer Should transfer money" time="42.478">
-<system-out><![CDATA[And click user icon.........................................................passed
-And click Sign in...........................................................passed
-When user customer login....................................................passed
-And click my operations.....................................................passed
-And click transfer page.....................................................passed
-And choose the sending account..............................................passed
-And choose the receiver account.............................................passed
-And type the balance and cent...............................................passed
-And type description........................................................passed
-And click make transfer button..............................................passed
-]]></system-out>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="17.307">
+<testcase classname="System should allow to read all customers' information using the api endpoint" name="Verify to read all customers' data set" time="16.94">
+<failure message="not verify expected:&lt;[458-62-6584, 612-15-5726, 450-56-4994, 186-48-4946, 439-12-4312, 234-55-8998, 511-18-8543, 333-34-2395, 473-22-1798, 123-12-1234, 244-56-7748, 355-88-2318, 821-84-3971, 108-53-6655, 224-71-4004, 194-21-8830, 498-53-5576, 234-22-8998, 234-11-8998, 777-23-7777]&gt; but was:&lt;[458-62-6584, 612-15-5726, 450-56-4994, 186-48-4946, 439-12-4312, 234-55-8998, 511-18-8543, 333-34-2395, 473-22-1798, 123-12-1234, 244-56-7748, 355-88-2318, 821-84-3971, 108-53-6655, 224-71-4004, 194-21-8830, 498-53-5576, 234-22-8998, 234-11-8998, 777-23-7777, 458-62-6584, 612-15-5726, 450-56-4994, 186-48-4946, 439-12-4312, 234-55-8998, 511-18-8543, 333-34-2395, 473-22-1798, 123-12-1234, 244-56-7748, 355-88-2318, 821-84-3971, 108-53-6655, 224-71-4004, 194-21-8830, 498-53-5576, 234-22-8998, 234-11-8998, 777-23-7777, 458-62-6584, 612-15-5726, 450-56-4994, 186-48-4946, 439-12-4312, 234-55-8998, 511-18-8543, 333-34-2395, 473-22-1798, 123-12-1234, 244-56-7748, 355-88-2318, 821-84-3971, 108-53-6655, 224-71-4004, 194-21-8830, 498-53-5576, 234-22-8998, 234-11-8998, 777-23-7777]&gt;" type="java.lang.AssertionError"><![CDATA[Given use the api endpoint "https://www.gmibank.com/api/tp-customers".......passed
+Then get all customers' information as de-serialization.....................passed
+Then verify the number 20 that is equals to the customers'number created from user.passed
+Then write the all customer's "firstName" and  "lastName" in a  file........passed
+Then write the all customer's "ssn" in a file and validate all the "ssn"....failed
+
+StackTrace:
+java.lang.AssertionError: not verify expected:<[458-62-6584, 612-15-5726, 450-56-4994, 186-48-4946, 439-12-4312, 234-55-8998, 511-18-8543, 333-34-2395, 473-22-1798, 123-12-1234, 244-56-7748, 355-88-2318, 821-84-3971, 108-53-6655, 224-71-4004, 194-21-8830, 498-53-5576, 234-22-8998, 234-11-8998, 777-23-7777]> but was:<[458-62-6584, 612-15-5726, 450-56-4994, 186-48-4946, 439-12-4312, 234-55-8998, 511-18-8543, 333-34-2395, 473-22-1798, 123-12-1234, 244-56-7748, 355-88-2318, 821-84-3971, 108-53-6655, 224-71-4004, 194-21-8830, 498-53-5576, 234-22-8998, 234-11-8998, 777-23-7777, 458-62-6584, 612-15-5726, 450-56-4994, 186-48-4946, 439-12-4312, 234-55-8998, 511-18-8543, 333-34-2395, 473-22-1798, 123-12-1234, 244-56-7748, 355-88-2318, 821-84-3971, 108-53-6655, 224-71-4004, 194-21-8830, 498-53-5576, 234-22-8998, 234-11-8998, 777-23-7777, 458-62-6584, 612-15-5726, 450-56-4994, 186-48-4946, 439-12-4312, 234-55-8998, 511-18-8543, 333-34-2395, 473-22-1798, 123-12-1234, 244-56-7748, 355-88-2318, 821-84-3971, 108-53-6655, 224-71-4004, 194-21-8830, 498-53-5576, 234-22-8998, 234-11-8998, 777-23-7777]>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at gmiBank_team22.step_Definitions.US_020_AllCustomersAPI_StepDefinitions.writeTheAllCustomerSInAFileAndValidateAllThe(US_020_AllCustomersAPI_StepDefinitions.java:92)
+	at ✽.write the all customer's "ssn" in a file and validate all the "ssn"(file:///C:/Users/felat/IdeaProjects/GMIBankt22/src/test/resources/features/US_020_AllcustomersAPI.feature:13)
+]]></failure>
 </testcase>
 </testsuite>

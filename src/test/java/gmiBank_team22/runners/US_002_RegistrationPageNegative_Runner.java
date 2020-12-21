@@ -19,8 +19,6 @@ import org.junit.runner.RunWith;
 )
 
 
-
-
 public class US_002_RegistrationPageNegative_Runner {
 
 }

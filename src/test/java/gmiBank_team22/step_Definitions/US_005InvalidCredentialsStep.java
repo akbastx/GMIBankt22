@@ -16,7 +16,7 @@ public class US_005InvalidCredentialsStep {
 
     @Given("User goes to Url")
     public void userGoesToUrl() {
-        Driver.getDriver().get(ConfigurationReader.getProperty("Url"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
     }
 
     @Then("User clicks menuIcon")
@@ -37,7 +37,7 @@ public class US_005InvalidCredentialsStep {
 
     @And("User enters Valid Password")
     public void userEntersValidPassword() throws InterruptedException {
-        invalid.passWord.sendKeys(ConfigurationReader.getProperty("ManagerPassword"));
+        invalid.passWord.sendKeys(ConfigurationReader.getProperty("managerPassword"));
         Thread.sleep(1000);
     }
 
@@ -55,7 +55,7 @@ public class US_005InvalidCredentialsStep {
 
     @And("User enters Valid Username")
     public void userEntersValidUsername() throws InterruptedException{
-        invalid.userName.sendKeys(ConfigurationReader.getProperty("ManagerUsername"));
+        invalid.userName.sendKeys(ConfigurationReader.getProperty("managerUserName"));
         Thread.sleep(1500);
     }
 
@@ -109,60 +109,7 @@ public class US_005InvalidCredentialsStep {
     }
 
 
-    //    @Given("User goes to Url")
-//    public void user_goes_to_Url() {
-//        Driver.getDriver().get(ConfigurationReader.getProperty("Url"));
-//    }
-//
-//    @Given("click user icon")
-//    public void click_user_icon() {
-//        invalid.logInDropdownMenu.click();
-//    }
-//
-//    @Given("click Sign in")
-//    public void click_Sign_in() {
-//        invalid.signInButton.click();
-//    }
-//
-//    @Given("User enters invalid {string}")
-//    public void user_enters_invalid(String string) {
-//        invalid.userName.sendKeys("string");
-//    }
-//
-//    @Then("User enters valid {string}")
-//    public void user_enters_valid(String string) {
-//        invalid.passWord.sendKeys("string");
-//    }
-//
-//    @Then("User click Sign in Button")
-//    public void user_click_Sign_in_Button() {
-//        invalid.signIn.click();
-//    }
-//
-//    @Then("User get Error Message and validate it")
-//    public void user_get_Error_Message_and_validate_it()throws InterruptedException {
-//    invalid.didYouForget.click();
-//    Thread.sleep(2000);
-//    }
-//
-// @Then("User enter email for reset password")
-// public void userEnterEmailForResetPassword()throws InterruptedException {
-//     invalid.email.sendKeys("123@gmail.com");
-//     Thread.sleep(2000);
-// }
-//
-//
-//    @Then("User can reset password")
-//    public void userCanResetPassword() {
-//     invalid.resetPassWord.click();
-//    }
-//
-//    @Then("page gives a statement to register it.")
-//    public void pageGivesAStatementToRegisterIt() {
-//     String actualResult=invalid.registerValidation.getText();
-//     String expectedResult="Enter the email address you used to register";
-//     assertThat(expectedResult,is(expectedResult));
-//    }
+
 
 
 }
