@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27801988-42e4-4b7a-9c01-68471d4afd0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/US_004_Login_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/US_004_Login_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/US_015_view_transaction_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/US_015_view_transaction_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/GMIBankt22.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US_004_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US_004_Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US_010_ManageCustomersAdress.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US_010_ManageCustomersAdress.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmiBank_team22/step_Definitions/US_004_Login_StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmiBank_team22/step_Definitions/US_004_Login_StepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmiBank_team22/step_Definitions/US_010_ManageCustomer_step_def.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmiBank_team22/step_Definitions/US_010_ManageCustomer_step_def.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmiBank_team22/step_Definitions/US_015_view_transaction_StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmiBank_team22/step_Definitions/US_015_view_transaction_StepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="felat" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lcfHqYvJKHmwsAunU8rDp1tw3B" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="gmiBank_team22.pojos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\felat\IdeaProjects\GMIBankt22\src\test\resources\features" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gmiBank_team22.pages" />
+      <recent name="gmiBank_team22.runners" />
+      <recent name="gmiBank_team22.step_Definitions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\felat\IdeaProjects\GMIBankt22" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: US_010_ManageCustomersAdress">
+    <configuration name="Feature: US_010_ManageCustomersAdress" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US_010_ManageCustomersAdress.feature" />
+      <option name="GLUE" value="gmiBank_team22.step_Definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="GMIBankt22" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US_010_ManageCustomersAdress" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: US_016_MoneyTransfer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US_016_MoneyTransfer.feature" />
+      <option name="GLUE" value="gmiBank_team22.step_Definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="GMIBankt22" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US_016_MoneyTransfer" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: : There should be at least one lowercase" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US_003_SecurePasscode.feature" />
+      <option name="GLUE" value="gmiBank_team22.step_Definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="GMIBankt22" />
+      <option name="NAME_FILTER" value="^\: There should be at least one lowercase$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\: There should be at least one lowercase$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: : There should be at least one lowercase" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_010_ManageCustomer_Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GMIBankt22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gmiBank_team22.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gmiBank_team22.runners" />
+      <option name="MAIN_CLASS_NAME" value="gmiBank_team22.runners.US_010_ManageCustomer_Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_016_MoneyTransfer_Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GMIBankt22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gmiBank_team22.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gmiBank_team22.runners" />
+      <option name="MAIN_CLASS_NAME" value="gmiBank_team22.runners.US_016_MoneyTransfer_Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: US_010_ManageCustomersAdress" />
+        <item itemvalue="Cucumber Java.Feature: US_016_MoneyTransfer" />
+        <item itemvalue="Cucumber Java.Scenario: : There should be at least one lowercase" />
+        <item itemvalue="JUnit.US_016_MoneyTransfer_Runner" />
+        <item itemvalue="JUnit.US_010_ManageCustomer_Runner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27801988-42e4-4b7a-9c01-68471d4afd0b" name="Default Changelist" comment="" />
+      <created>1607901214632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607901214632</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="532" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607916164282">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="532" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1607916164282" />
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1607925250166">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1607925250166" />
+    <state x="551" y="327" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608517443486">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="551" y="327" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1608517443486" />
+    <state width="1493" height="311" key="GridCell.Tab.0.bottom" timestamp="1608517376870">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="311" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608517376870" />
+    <state width="1493" height="311" key="GridCell.Tab.0.center" timestamp="1608517376870">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="311" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1608517376870" />
+    <state width="1493" height="311" key="GridCell.Tab.0.left" timestamp="1608517376870">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="311" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1608517376870" />
+    <state width="1493" height="311" key="GridCell.Tab.0.right" timestamp="1608517376870">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="311" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608517376870" />
+    <state x="550" y="145" key="git4idea.branch.GitSmartOperationDialog" timestamp="1608517116193">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="550" y="145" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.864@0.0.1536.864" timestamp="1608517116193" />
+  </component>
+</project>
