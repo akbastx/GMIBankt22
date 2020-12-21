@@ -2,6 +2,7 @@ package gmiBank_team22.step_Definitions;
 
 import gmiBank_team22.utilities.ConfigurationReader;
 
+import gmiBank_team22.utilities.WriteToTxt;
 import io.cucumber.java.en.*;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -41,7 +42,7 @@ public class US_021_AllCountriesAPI_StepDefinitions {
 
         //read 5th country id=> 18948
         System.out.println(allCountriesData.get(4).get("id"));
-        String expectedId = (String) allCountriesData.get(4).get("id");
+        Integer expectedId = (int) allCountriesData.get(4).get("id");
 
 
         //read 8th country name => Dominic
@@ -50,10 +51,14 @@ public class US_021_AllCountriesAPI_StepDefinitions {
 
         //read 3rd country state => null
         System.out.println(allCountriesData.get(2).get("states"));
-        String expected3rdCountryState= allCountriesData.get(2).get("states").toString();
+        String expected3rdCountryState= (String) allCountriesData.get(2).get("states");
+
+        //read last country name => Cindy
+        System.out.println(allCountriesData.get(allCountriesData.size()-1).get("name"));
+        String expectedLastCountryName= allCountriesData.get(allCountriesData.size()-1).get("name").toString();
 
 
-
+        // WriteToTxt.saveAllStates("allCountries.csv", allCountriesData );
 
 
 
