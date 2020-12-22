@@ -11,9 +11,14 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml"},
         features = "src/test/resources/features",
         glue = "gmiBank_team22/step_Definitions",
-        tags = "@US_007",
+        tags = "@US11_Date",
         dryRun = false
+
 )
 
-public class US_007_User_Settings_Runner {
+
+
+
+
+public class US_011_Date_runner {
 }
