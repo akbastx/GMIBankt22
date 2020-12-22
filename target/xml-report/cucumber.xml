@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="22.327">
+<testcase classname="update of countries" name="_2" time="11.62">
+<system-out><![CDATA[Given user sets all data using "https://www.gmibank.com/api/tp-countries" using "18949" and "Switzerland" and "null".passed
+]]></system-out>
+</testcase>
+<testcase classname="update of countries" name="user read all countries data" time="10.252">
+<system-out><![CDATA[Given user sets the countries to response using "https://www.gmibank.com/api/tp-countries".passed
+Then user validates updated country.........................................passed
+And user saves the countries to correspondent files.........................passed
+Then user validates the countries...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

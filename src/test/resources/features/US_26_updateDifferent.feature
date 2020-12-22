@@ -1,5 +1,3 @@
-@CountryDiffer
-
 Feature: update of countries
 
   Scenario Outline:

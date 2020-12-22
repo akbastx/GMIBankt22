@@ -1,0 +1,182 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-22T15:14:28.710Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7794000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmiBank_team22.step_Definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "update-of-countries;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1754000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmiBank_team22.step_Definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2006000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user sets all data using \"https://www.gmibank.com/api/tp-countries\" using \"18949\" and \"Switzerland\" and \"null\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.gmibank.com/api/tp-countries\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"18949\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Switzerland\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 104
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_26_Country_Update.user_sets_all_data_using_using_and_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CountryDiffer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-22T15:14:40.346Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7194000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmiBank_team22.step_Definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "user read all countries data",
+        "description": "",
+        "id": "update-of-countries;user-read-all-countries-data",
+        "after": [
+          {
+            "result": {
+              "duration": 1823000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmiBank_team22.step_Definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 439000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user sets the countries to response using \"https://www.gmibank.com/api/tp-countries\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.gmibank.com/api/tp-countries\"",
+                  "offset": 42
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_26_Country_Update.user_sets_the_countries_to_response_using(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 700000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user validates updated country",
+            "match": {
+              "location": "gmiBank_team22.step_Definitions.US_26_Country_Update.user_validates_updated_country()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user saves the countries to correspondent files",
+            "match": {
+              "location": "gmiBank_team22.step_Definitions.US_26_Country_Update.user_saves_the_countries_to_correspondent_files()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user validates the countries",
+            "match": {
+              "location": "gmiBank_team22.step_Definitions.US_26_Country_Update.user_validates_the_countries()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CountryDiffer"
+          }
+        ]
+      }
+    ],
+    "name": "update of countries",
+    "description": "",
+    "id": "update-of-countries",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US_26_updateDifferent.feature",
+    "tags": [
+      {
+        "name": "@CountryDiffer",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

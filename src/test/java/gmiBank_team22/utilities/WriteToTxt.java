@@ -1,6 +1,7 @@
 package gmiBank_team22.utilities;
 
 import gmiBank_team22.pojos.Applicants;
+import gmiBank_team22.pojos.Country;
 import gmiBank_team22.pojos.Customer;
 import gmiBank_team22.pojos.States;
 
@@ -80,8 +81,27 @@ public  static void saveAllStates(String fileName, States[] states){
 
         }
 
-
-
-
     }
+
+    public static void saveDataInFileInt(String fileName, Country[] country) {
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
+            for (int i = 0; i < country.length; i++)
+                writer.append(country[i].getId() + "\n");
+            writer.close();
+        } catch (Exception e) {
+        }
+    }
+
+    public static void saveDataInFile(String fileName, Country[] country) {
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
+            for (int i = 0; i < country.length; i++)
+                writer.append(country[i].getName() + "\n");
+            writer.close();
+        } catch (Exception e) {
+        }
+    }
+
+
 }
