@@ -1,5 +1,8 @@
 package gmiBank_team22.step_Definitions;
 
+
+public class US_021_AllCountriesAPI_StepDefinitions {
+
 import gmiBank_team22.utilities.ConfigurationReader;
 
 import gmiBank_team22.utilities.WriteToTxt;
@@ -67,8 +70,5 @@ public class US_021_AllCountriesAPI_StepDefinitions {
 
 
     }
-
-
-
 
 }
