@@ -1,15 +1,12 @@
 package gmiBank_team22.step_Definitions;
 
-
-public class US_021_AllCountriesAPI_StepDefinitions {
-
 import gmiBank_team22.utilities.ConfigurationReader;
 
-import gmiBank_team22.utilities.WriteToTxt;
 import io.cucumber.java.en.*;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.junit.Assert;
 
 
 import java.util.List;
@@ -37,6 +34,8 @@ public class US_021_AllCountriesAPI_StepDefinitions {
     public void get_all_countries() {
         json = response.jsonPath();
         allCountriesData = json.getList("$");
+
+        Assert.assertNotNull(allCountriesData);
 
         //read all countries
         System.out.println(allCountriesData);
