@@ -29,6 +29,7 @@ public class US_021_AllCountriesAPI_StepDefinitions {
                         get(string);
     }
 
+
     @Then("get all countries")
     public void get_all_countries() {
         json = response.jsonPath();
@@ -43,7 +44,6 @@ public class US_021_AllCountriesAPI_StepDefinitions {
         //read 5th country id=> 18948
         System.out.println(allCountriesData.get(4).get("id"));
         Integer expectedId = (int) allCountriesData.get(4).get("id");
-
 
         //read 8th country name => Dominic
         System.out.println(allCountriesData.get(7).get("name"));
