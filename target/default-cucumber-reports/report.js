@@ -1,11 +1,11 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/US_020_AllcustomersAPI.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/US_005_InvalidCredentials.feature");
 formatter.feature({
-  "name": "System should allow to read all customers\u0027 information using the api endpoint",
+  "name": "Invalid Credentials",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@US_O20_CustomersDataApi"
+      "name": "@Invalid"
     }
   ]
 });
@@ -18,74 +18,81 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "use the api endpoint \"https://www.gmibank.com/api/tp-customers\"",
+  "name": "User goes to Url",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "gmiBank_team22.step_Definitions.US_020_AllCustomersAPI_StepDefinitions.use_the_api_endpoint(java.lang.String)"
+  "location": "gmiBank_team22.step_Definitions.US_005InvalidCredentialsStep.userGoesToUrl()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "get all customers\u0027 information as de-serialization",
+  "name": "User clicks menuIcon",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "gmiBank_team22.step_Definitions.US_020_AllCustomersAPI_StepDefinitions.get_all_customers_information_as_de_serialization()"
+  "location": "gmiBank_team22.step_Definitions.US_005InvalidCredentialsStep.user_clicks_menuIcon()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User clicks signInButton",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmiBank_team22.step_Definitions.US_005InvalidCredentialsStep.user_clicks_signInButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User Clicks signIn Option",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmiBank_team22.step_Definitions.US_005InvalidCredentialsStep.userClicksSignInOption()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User sees Failed Message",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "gmiBank_team22.step_Definitions.US_005InvalidCredentialsStep.userSeesFailedMessage()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify to read all customers\u0027 data set",
+  "name": "Login with Invalid UserName",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@US_O20_CustomersDataApi"
-    },
-    {
-      "name": "@TC_001_AllCustomersData"
+      "name": "@Invalid"
     }
   ]
 });
 formatter.step({
-  "name": "verify the number 20 that is equals to the customers\u0027number created from user",
-  "keyword": "Then "
+  "name": "User enters Invalid Username",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "gmiBank_team22.step_Definitions.US_020_AllCustomersAPI_StepDefinitions.verifyTheNumberThatIsEqualsToTheCustomersNumberCreatedFromUser(int)"
+  "location": "gmiBank_team22.step_Definitions.US_005InvalidCredentialsStep.userEntersInvalidUsername()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "write to all customers\u0027 \"ssn\",\"firstName\" and  \"lastName\" in a .txt file",
-  "keyword": "Then "
+  "name": "User enters Valid Password",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "gmiBank_team22.step_Definitions.US_020_AllCustomersAPI_StepDefinitions.write_to_all_customers_and_in_a_txt_file(java.lang.String,java.lang.String,java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "get all the information of the \"5th customer\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmiBank_team22.step_Definitions.US_020_AllCustomersAPI_StepDefinitions.get_all_the_information_of_the(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "verify that 5th customer\u0027s first name \"Ally\" and ssn \"33880\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "gmiBank_team22.step_Definitions.US_020_AllCustomersAPI_StepDefinitions.verify_that_5th_customer_s_first_name_and_ssn(java.lang.String,java.lang.String)"
+  "location": "gmiBank_team22.step_Definitions.US_005InvalidCredentialsStep.userEntersValidPassword()"
 });
 formatter.result({
   "status": "passed"
@@ -93,4 +100,8 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
 });

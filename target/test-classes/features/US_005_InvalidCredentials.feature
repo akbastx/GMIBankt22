@@ -7,7 +7,7 @@ Feature: Invalid Credentials
    Then User clicks menuIcon
    Then User clicks signInButton
    Then User Clicks signIn Option
-   Then User sees Failed Message klklkkl
+   Then User sees Failed Message
 
 
   Scenario: Login with Invalid UserName
