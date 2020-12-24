@@ -7,23 +7,56 @@ import java.util.List;
 import java.util.Map;
 
 public class DataBaseUtility {
+
+    private static final String dbusername = ConfigurationReader.getProperty("db_username");
+    private static final String dbpassword = ConfigurationReader.getProperty("db_password");
+    private static final String connectionUrl = ConfigurationReader.getProperty("db_url");
+
     private static Connection connection;
     private static Statement statement;
     private static ResultSet resultSet;
-    public static void createConnection() {
-        String url = "jdbc:postgresql://157.230.48.97:5432/gmibank_db";
-        String user = "techprodb_user";
-        String password = "Techpro_@126";
+    private static ResultSetMetaData metaData;
+    private static PreparedStatement preparedStatement;
+
+    public static ResultSet getResultSet(String query) {
+
         try {
-            connection = DriverManager.getConnection(url, user, password);
+            connection = DriverManager.getConnection(connectionUrl, dbusername, dbpassword);
+            if (connection != null) {
+                System.out.println("Connected");
+            } else {
+                System.out.println("Failed");
+            }
+
+            Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+            resultSet = statement.executeQuery(query);
+
+        } catch (SQLException sqlEx) {
+            System.out.println("SQL Exception:" + sqlEx.getStackTrace());
+        }
+        return resultSet;
+    }
+
+
+
+    public static void createConnection() {
+        String db_url = "jdbc:postgresql://157.230.48.97:5432/gmibank_db";
+        String db_user = "techprodb_user";
+        String db_password = "Techpro_@126";
+        try {
+            connection = DriverManager.getConnection(db_url, db_user, db_password);
         } catch (SQLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
-    public static void createConnection(String url, String user, String password) {
+
+
+
+
+    public static void createConnection(String db_url, String db_user, String db_password) {
         try {
-            connection = DriverManager.getConnection(url, user, password);
+            connection = DriverManager.getConnection(db_url, db_user, db_password);
         } catch (SQLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
