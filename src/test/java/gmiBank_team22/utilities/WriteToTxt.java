@@ -8,6 +8,7 @@ import gmiBank_team22.pojos.States;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.io.IOException;
 
 public class WriteToTxt {
     public static void saveDataInFile(String fileName, Customer[] customers) {
@@ -96,24 +97,31 @@ public class WriteToTxt {
         }
     }
 
-    public static void saveDataInFile(String fileName, Country[] country) {
+    public static void saveDataInFile(String fileName, Country[] country) throws IOException {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
             for (int i = 0; i < country.length; i++)
                 writer.append(country[i].getName() + "\n");
 
-    }
-
-    public static void saveDataInFileFirstNameLastName(String fileName, Customer[] customers) {
-        try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
-            for (int i = 0; i < customers.length; i++)
-                writer.append(customers[i].getFirstName() + " , " + customers[i].getLastName() + "\n");
-
-            writer.close();
-        } catch (Exception e) {
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
 
-}
+
+
+        public static void saveDataInFileFirstNameLastName (String fileName, Customer[]customers){
+            try {
+                BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
+                for (int i = 0; i < customers.length; i++)
+                    writer.append(customers[i].getFirstName() + " , " + customers[i].getLastName() + "\n");
+
+                writer.close();
+            } catch (Exception e) {
+            }
+        }
+
+
+    }
+
