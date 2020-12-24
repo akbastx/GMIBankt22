@@ -7,8 +7,9 @@ import com.itextpdf.text.Phrase;
 import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
-import gmiBank_team22.pojos.Country;
-import gmiBank_team22.pojos.Customer;
+import gmiBank_team22.pojo.Country;
+import gmiBank_team22.pojo.Customer;
+
 
 
 import java.io.FileOutputStream;

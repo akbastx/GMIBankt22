@@ -1,9 +1,10 @@
 package gmiBank_team22.utilities;
 
-import gmiBank_team22.pojos.Applicants;
-import gmiBank_team22.pojos.Country;
-import gmiBank_team22.pojos.Customer;
-import gmiBank_team22.pojos.States;
+import gmiBank_team22.pojo.Applicants;
+import gmiBank_team22.pojo.Country;
+import gmiBank_team22.pojo.Customer;
+import gmiBank_team22.pojo.States;
+
 
 
 import java.io.BufferedWriter;

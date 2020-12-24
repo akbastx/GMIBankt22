@@ -1,4 +1,4 @@
-package gmiBank_team22.pojos;
+package gmiBank_team22.pojo;
 
 
 

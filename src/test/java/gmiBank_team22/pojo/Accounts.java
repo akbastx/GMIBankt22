@@ -1,4 +1,4 @@
-package gmiBank_team22.pojo.pojos;
+package gmiBank_team22.pojo;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

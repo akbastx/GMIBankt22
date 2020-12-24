@@ -1,7 +1,7 @@
 package gmiBank_team22.step_Definitions;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import gmiBank_team22.pojo.pojos.Applicants;
+import gmiBank_team22.pojo.Applicants;
 import gmiBank_team22.utilities.ConfigurationReader;
 import gmiBank_team22.utilities.WriteToTxt;
 import io.cucumber.java.en.And;
