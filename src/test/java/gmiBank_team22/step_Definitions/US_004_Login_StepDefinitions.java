@@ -50,6 +50,7 @@ public class US_004_Login_StepDefinitions {
         Assert.assertEquals(ConfigurationReader.getProperty("managerNameName"), actualName);
     }
 
+
     @Then("customer sees her name on the new page")
     public void costumer_sees_her_name_on_the_new_page() {
         String actualName = us_004_login_page.customerAssert.getText();

@@ -11,6 +11,7 @@ Feature: User logs in
     When user user login
     Then user sees her name on the new page
 
+
   Scenario:Applicant log in
     When user admin login
     Then admin sees her name on the new page
