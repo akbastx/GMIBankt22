@@ -11,240 +11,42 @@
         "steps": [
           {
             "result": {
-              "duration": 694000000,
+              "duration": 1633000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "go to web page",
+            "name": "use the api endpoint https:\"https://www.gmibank.com/api/tp-account-registrations\"",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.goToWebPage()"
+              "arguments": [
+                {
+                  "val": "\"https://www.gmibank.com/api/tp-account-registrations\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.useTheApiEndpointHttps(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 228000000,
+              "duration": 406000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "click DropDownMenu",
+            "name": "Get all data deserialized into Java",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickDropDownMenu()"
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.getAllDataDeserializedIntoJava()"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 268000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "click first signin",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickFirstSignin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 776000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "click enter username",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickEnterUsername()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 223000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "click enter password",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickEnterPassword()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 202000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "click secondsignin",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickSecondsignin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 272000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "click MyOperation Dropdown",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickMyOperationDropdown()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 189000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "click manage customer",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickManageCustomer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 281000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "click creat new customer",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickCreatNewCustomer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 464000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "enter firstname",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterFirstname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 218000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "enter lastname",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterLastname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 267000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "enter middlename",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterMiddlename()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 260000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "enter email",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterEmail()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 214000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "enter mobilephone number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterMobilephoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 261000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "enter phone number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterPhoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 235000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "zip Code",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.zipCode()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 266000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "enter Address",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterAddress()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 207000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "enter City",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterCity()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 264000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "enter Ssn number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterSsnNumber()"
-            },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-15T22:05:33.233Z",
+        "start_timestamp": "2020-12-24T04:54:02.105Z",
         "before": [
           {
             "result": {
-              "duration": 3764000000,
+              "duration": 8333000000,
               "status": "passed"
             },
             "match": {
@@ -252,14 +54,14 @@
             }
           }
         ],
-        "line": 30,
-        "name": "TC_001_negative",
+        "line": 9,
+        "name": "Verify to be able read all Applicant\u0027s data",
         "description": "",
-        "id": "date;tc-001-negative",
+        "id": "system-should-allow-to-read-all-applicants-information;verify-to-be-able-read-all-applicant-s-data",
         "after": [
           {
             "result": {
-              "duration": 897000000,
+              "duration": 2372000000,
               "status": "passed"
             },
             "match": {
@@ -272,47 +74,46 @@
         "steps": [
           {
             "result": {
-              "duration": 301000000,
+              "duration": 334000000,
               "status": "passed"
             },
-            "line": 31,
-            "name": "user select previous day",
+            "line": 10,
+            "name": "write all Applicant\u0027s information into a file",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.userSelectPreviousDay()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 266000000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "user click save",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.userClickSave()"
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.writeAllApplicantSInformationIntoAFile()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 256000000,
               "status": "passed"
             },
-            "line": 33,
-            "name": "Verify system should give error message",
+            "line": 11,
+            "name": "read all applicants in Application",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.verifySystemShouldGiveErrorMessage()"
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.readAllApplicantsInApplication()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "validate all Aplicant\u0027s numbers",
+            "match": {
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.validateAllAplicantSNumbers()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US11_Date"
+            "name": "@US23_ReadAllApplicants"
           },
           {
-            "name": "@TC_001_Date"
+            "name": "@TC_001_AllApplicant\u0027sData"
           }
         ]
       },
@@ -325,1496 +126,42 @@
         "steps": [
           {
             "result": {
-              "duration": 629000000,
+              "duration": 1985000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "go to web page",
+            "name": "use the api endpoint https:\"https://www.gmibank.com/api/tp-account-registrations\"",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.goToWebPage()"
+              "arguments": [
+                {
+                  "val": "\"https://www.gmibank.com/api/tp-account-registrations\"",
+                  "offset": 27
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.useTheApiEndpointHttps(java.lang.String)"
             },
             "keyword": "Given "
           },
-          {
-            "result": {
-              "duration": 200000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "click DropDownMenu",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickDropDownMenu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 230000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "click first signin",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickFirstSignin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 732000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "click enter username",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickEnterUsername()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 225000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "click enter password",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickEnterPassword()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 194000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "click secondsignin",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickSecondsignin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 235000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "click MyOperation Dropdown",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickMyOperationDropdown()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 206000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "click manage customer",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickManageCustomer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 268000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "click creat new customer",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickCreatNewCustomer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 393000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "enter firstname",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterFirstname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 207000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "enter lastname",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterLastname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 276000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "enter middlename",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterMiddlename()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 260000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "enter email",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterEmail()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 221000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "enter mobilephone number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterMobilephoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 229000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "enter phone number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterPhoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 243000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "zip Code",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.zipCode()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 254000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "enter Address",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterAddress()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 223000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "enter City",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterCity()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 249000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "enter Ssn number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterSsnNumber()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-15T22:05:44.600Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2537000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 36,
-        "name": "TC_002_positive",
-        "description": "",
-        "id": "date;tc-002-positive",
-        "after": [
-          {
-            "result": {
-              "duration": 898000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 285000000,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "user should select  current date",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.userShouldSelectCurrentDate()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 224000000,
-              "status": "passed"
-            },
-            "line": 38,
-            "name": "user click save",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.userClickSave()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 265000000,
-              "status": "passed"
-            },
-            "line": 39,
-            "name": "verify account is created with current date",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.verifyAccountIsCreatedWithCurrentDate()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US11_Date"
-          },
-          {
-            "name": "@TC_002_Date"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 622000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "go to web page",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.goToWebPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 219000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "click DropDownMenu",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickDropDownMenu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 266000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "click first signin",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickFirstSignin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 744000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "click enter username",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickEnterUsername()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 215000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "click enter password",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickEnterPassword()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 209000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "click secondsignin",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickSecondsignin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 251000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "click MyOperation Dropdown",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickMyOperationDropdown()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 198000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "click manage customer",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickManageCustomer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 290000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "click creat new customer",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickCreatNewCustomer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 373000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "enter firstname",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterFirstname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 203000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "enter lastname",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterLastname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 280000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "enter middlename",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterMiddlename()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 258000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "enter email",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterEmail()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 215000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "enter mobilephone number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterMobilephoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 219000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "enter phone number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterPhoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 224000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "zip Code",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.zipCode()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 258000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "enter Address",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterAddress()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 214000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "enter City",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterCity()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 242000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "enter Ssn number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterSsnNumber()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-15T22:05:54.307Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2536000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 42,
-        "name": "TC_003_User_positive",
-        "description": "",
-        "id": "date;tc-003-user-positive",
-        "after": [
-          {
-            "result": {
-              "duration": 855000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 253000000,
-              "status": "passed"
-            },
-            "line": 43,
-            "name": "user leave userTextBox blank",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.userLeaveUserTextBoxBlank()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 492000000,
-              "status": "passed"
-            },
-            "line": 44,
-            "name": "user click save",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.userClickSave()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 224000000,
-              "status": "passed"
-            },
-            "line": 45,
-            "name": "verify account is not created with blank userTextBox",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.verifyAccountIsNotCreatedWithBlankUserTextBox()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US11_Date"
-          },
-          {
-            "name": "@TC_003_User"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 637000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "go to web page",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.goToWebPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 217000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "click DropDownMenu",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickDropDownMenu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 251000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "click first signin",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickFirstSignin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 753000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "click enter username",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickEnterUsername()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 217000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "click enter password",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickEnterPassword()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 204000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "click secondsignin",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickSecondsignin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 255000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "click MyOperation Dropdown",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickMyOperationDropdown()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 194000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "click manage customer",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickManageCustomer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 280000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "click creat new customer",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickCreatNewCustomer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 384000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "enter firstname",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterFirstname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 207000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "enter lastname",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterLastname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 258000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "enter middlename",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterMiddlename()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 264000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "enter email",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterEmail()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 219000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "enter mobilephone number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterMobilephoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 222000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "enter phone number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterPhoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 246000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "zip Code",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.zipCode()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 289000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "enter Address",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterAddress()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 208000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "enter City",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterCity()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 224000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "enter Ssn number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterSsnNumber()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-15T22:06:04.189Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2561000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 48,
-        "name": "TC_004_User_negative",
-        "description": "",
-        "id": "date;tc-004-user-negative",
-        "after": [
-          {
-            "result": {
-              "duration": 902000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 258000000,
-              "status": "passed"
-            },
-            "line": 49,
-            "name": "user leave userTextBox blank",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.userLeaveUserTextBoxBlank()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 543000000,
-              "status": "passed"
-            },
-            "line": 50,
-            "name": "user click save",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.userClickSave()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 212000000,
-              "status": "passed"
-            },
-            "line": 51,
-            "name": "verify account is created with blank usertextbox",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.verifyAccountIsCreatedWithBlankUsertextbox()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US11_Date"
-          },
-          {
-            "name": "@TC_004_User"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 565000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "go to web page",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.goToWebPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 204000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "click DropDownMenu",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickDropDownMenu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 250000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "click first signin",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickFirstSignin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 774000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "click enter username",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickEnterUsername()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 213000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "click enter password",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickEnterPassword()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 210000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "click secondsignin",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickSecondsignin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 252000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "click MyOperation Dropdown",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickMyOperationDropdown()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 201000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "click manage customer",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickManageCustomer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 291000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "click creat new customer",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickCreatNewCustomer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 366000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "enter firstname",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterFirstname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 204000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "enter lastname",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterLastname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 256000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "enter middlename",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterMiddlename()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 264000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "enter email",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterEmail()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 217000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "enter mobilephone number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterMobilephoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 239000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "enter phone number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterPhoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 254000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "zip Code",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.zipCode()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 291000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "enter Address",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterAddress()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 205000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "enter City",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterCity()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 209000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "enter Ssn number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterSsnNumber()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-15T22:06:14.211Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2413000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 54,
-        "name": "TC_005_User_positive",
-        "description": "",
-        "id": "date;tc-005-user-positive",
-        "after": [
-          {
-            "result": {
-              "duration": 820000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
           {
             "result": {
               "duration": 160000000,
               "status": "passed"
             },
-            "line": 55,
-            "name": "user select account from registration",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.userSelectAccountFromRegistration()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 252000000,
-              "status": "passed"
-            },
-            "line": 56,
-            "name": "user click save",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.userClickSave()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 254000000,
-              "status": "passed"
-            },
-            "line": 57,
-            "name": "verify account is created with selected account",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.verifyAccountIsCreatedWithSelectedAccount()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US11_Date"
-          },
-          {
-            "name": "@TC_005_Account"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 609000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "go to web page",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.goToWebPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 211000000,
-              "status": "passed"
-            },
             "line": 6,
-            "name": "click DropDownMenu",
+            "name": "Get all data deserialized into Java",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickDropDownMenu()"
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.getAllDataDeserializedIntoJava()"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 250000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "click first signin",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickFirstSignin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 726000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "click enter username",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickEnterUsername()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 216000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "click enter password",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickEnterPassword()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 201000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "click secondsignin",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickSecondsignin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 249000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "click MyOperation Dropdown",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickMyOperationDropdown()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 205000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "click manage customer",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickManageCustomer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 293000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "click creat new customer",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickCreatNewCustomer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 395000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "enter firstname",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterFirstname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 230000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "enter lastname",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterLastname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 265000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "enter middlename",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterMiddlename()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 260000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "enter email",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterEmail()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 214000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "enter mobilephone number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterMobilephoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 258000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "enter phone number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterPhoneNumber()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 226000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "zip Code",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.zipCode()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 270000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "enter Address",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterAddress()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 216000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "enter City",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterCity()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 237000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "enter Ssn number",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterSsnNumber()"
-            },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-15T22:06:23.593Z",
+        "start_timestamp": "2020-12-24T04:54:15.270Z",
         "before": [
           {
             "result": {
-              "duration": 2218000000,
+              "duration": 7528000000,
               "status": "passed"
             },
             "match": {
@@ -1822,14 +169,14 @@
             }
           }
         ],
-        "line": 60,
-        "name": "TC_006_User select Zelle_positive",
+        "line": 15,
+        "name": "TC_002 verify Single Applicant\u0027s data",
         "description": "",
-        "id": "date;tc-006-user-select-zelle-positive",
+        "id": "system-should-allow-to-read-all-applicants-information;tc-002-verify-single-applicant-s-data",
         "after": [
           {
             "result": {
-              "duration": 786000000,
+              "duration": 2384000000,
               "status": "passed"
             },
             "match": {
@@ -1842,373 +189,195 @@
         "steps": [
           {
             "result": {
-              "duration": 225000000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "user select Zelle checkbox",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.userSelectZelleCheckbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 216000000,
-              "status": "passed"
-            },
-            "line": 62,
-            "name": "user click save",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.userClickSave()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 255000000,
-              "status": "passed"
-            },
-            "line": 63,
-            "name": "verify account is created with  Zelle Selection",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.verifyAccountIsCreatedWithZelleSelection()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US11_Date"
-          },
-          {
-            "name": "@TC_006_Zelle"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 603000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "go to web page",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.goToWebPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 232000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "click DropDownMenu",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickDropDownMenu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 246000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "click first signin",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickFirstSignin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 756000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "click enter username",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickEnterUsername()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 210000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "click enter password",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickEnterPassword()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 190000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "click secondsignin",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickSecondsignin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 249000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "click MyOperation Dropdown",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickMyOperationDropdown()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 205000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "click manage customer",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickManageCustomer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 263000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "click creat new customer",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.clickCreatNewCustomer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 412000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "enter firstname",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterFirstname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 203000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "enter lastname",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterLastname()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 233000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 16,
-            "name": "enter middlename",
+            "name": "verify first Applicant\u0027s id \u003c1251\u003e",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterMiddlename()"
+              "arguments": [
+                {
+                  "val": "1251",
+                  "offset": 29
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifyFirstApplicantSId(int)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 252000000,
               "status": "passed"
             },
             "line": 17,
-            "name": "enter email",
+            "name": "verify second Applicant\u0027s ssn \"124-45-3422\"",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterEmail()"
+              "arguments": [
+                {
+                  "val": "\"124-45-3422\"",
+                  "offset": 30
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifySecondApplicantSSsn(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 214000000,
               "status": "passed"
             },
             "line": 18,
-            "name": "enter mobilephone number",
+            "name": "verify third Applicant\u0027s firstName \"customer\"",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterMobilephoneNumber()"
+              "arguments": [
+                {
+                  "val": "\"customer\"",
+                  "offset": 35
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifyThirdApplicantSFirstName(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 249000000,
               "status": "passed"
             },
             "line": 19,
-            "name": "enter phone number",
+            "name": "verify fourth Applicant\u0027s lastName \"techproed\"",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterPhoneNumber()"
+              "arguments": [
+                {
+                  "val": "\"techproed\"",
+                  "offset": 35
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifyFourthApplicantSLastName(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 223000000,
               "status": "passed"
             },
             "line": 20,
-            "name": "zip Code",
+            "name": "verify fifth Applicant\u0027s address \"Gallows road 8765\"",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.zipCode()"
+              "arguments": [
+                {
+                  "val": "\"Gallows road 8765\"",
+                  "offset": 33
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifyFifthApplicantSAddress(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 263000000,
               "status": "passed"
             },
             "line": 21,
-            "name": "enter Address",
+            "name": "verify sixth Applicant\u0027s mobilePhoneNumber \"111-222-3333\"",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterAddress()"
+              "arguments": [
+                {
+                  "val": "\"111-222-3333\"",
+                  "offset": 43
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifySixthApplicantSMobilePhoneNumber(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 210000000,
               "status": "passed"
             },
             "line": 22,
-            "name": "enter City",
+            "name": "verify seventh Applicant\u0027s userId  \u003c1555\u003e",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterCity()"
+              "arguments": [
+                {
+                  "val": "1555",
+                  "offset": 36
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifySeventhApplicantSUserId(int)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 247000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 23,
-            "name": "enter Ssn number",
+            "name": "verify eighth Applicant\u0027s userName \"ali\"",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.enterSsnNumber()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-15T22:06:32.842Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2614000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 66,
-        "name": "TC_007_User doesnot select Zelle_negative",
-        "description": "",
-        "id": "date;tc-007-user-doesnot-select-zelle-negative",
-        "after": [
-          {
-            "result": {
-              "duration": 870000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 216000000,
-              "status": "passed"
-            },
-            "line": 67,
-            "name": "user does not select Zelle checkbox",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.userDoesNotSelectZelleCheckbox()"
+              "arguments": [
+                {
+                  "val": "\"ali\"",
+                  "offset": 35
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifyEighthApplicantSUserName(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 216000000,
               "status": "passed"
             },
-            "line": 68,
-            "name": "user click save",
+            "line": 24,
+            "name": "verify nineth Applicant\u0027semail  \"peter@john.com\"",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.userClickSave()"
+              "arguments": [
+                {
+                  "val": "\"peter@john.com\"",
+                  "offset": 32
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifyNinethApplicantSemail(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 276000000,
               "status": "passed"
             },
-            "line": 69,
-            "name": "verify account is created with not selecting Zelle checkbox",
+            "line": 25,
+            "name": "verify tenth Applicant\u0027s createDate \"2020-11-01T07:28:16.796Z\"",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_011_DateStep_Def.verifyAccountIsCreatedWithNotSelectingZelleCheckbox()"
+              "arguments": [
+                {
+                  "val": "\"2020-11-01T07:28:16.796Z\"",
+                  "offset": 36
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifyTenthApplicantSCreateDate(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US11_Date"
+            "name": "@US23_ReadAllApplicants"
           },
           {
-            "name": "@TC_007_Zelle"
+            "name": "@TC_002_AllApplicant\u0027s_1by1"
           }
         ]
       }
     ],
-    "name": "Date",
+    "name": "System should allow to read all Applicants information",
     "description": "",
-    "id": "date",
+    "id": "system-should-allow-to-read-all-applicants-information",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US_011_Date.feature",
+    "uri": "file:src/test/resources/features/US_23_Applicant_Info.feature",
     "tags": [
       {
-        "name": "@US11_Date",
+        "name": "@US23_ReadAllApplicants",
         "type": "Tag",
         "location": {
           "line": 1,
