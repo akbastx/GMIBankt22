@@ -1,52 +1,13 @@
 [
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1588000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "use the api endpoint https:\"https://www.gmibank.com/api/tp-account-registrations\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.gmibank.com/api/tp-account-registrations\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.useTheApiEndpointHttps(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 980000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Get all data deserialized into Java",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.getAllDataDeserializedIntoJava()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-24T06:01:55.870Z",
+        "start_timestamp": "2020-12-22T15:14:28.710Z",
         "before": [
           {
             "result": {
-              "duration": 6083000000,
+              "duration": 7794000000,
               "status": "passed"
             },
             "match": {
@@ -54,14 +15,82 @@
             }
           }
         ],
-        "line": 9,
-        "name": "Verify to be able read all Applicant\u0027s data",
+        "line": 10,
+        "name": "",
         "description": "",
-        "id": "system-should-allow-to-read-all-applicants-information;verify-to-be-able-read-all-applicant-s-data",
+        "id": "update-of-countries;;;2",
         "after": [
           {
             "result": {
-              "duration": 3270000000,
+              "duration": 1754000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmiBank_team22.step_Definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2006000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user sets all data using \"https://www.gmibank.com/api/tp-countries\" using \"18949\" and \"Switzerland\" and \"null\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.gmibank.com/api/tp-countries\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"18949\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Switzerland\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 104
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_26_Country_Update.user_sets_all_data_using_using_and_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CountryDiffer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-22T15:14:40.346Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7194000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmiBank_team22.step_Definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "user read all countries data",
+        "description": "",
+        "id": "update-of-countries;user-read-all-countries-data",
+        "after": [
+          {
+            "result": {
+              "duration": 1823000000,
               "status": "passed"
             },
             "match": {
@@ -74,314 +103,74 @@
         "steps": [
           {
             "result": {
-              "duration": 582000000,
+              "duration": 439000000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "write all Applicant\u0027s information into a file",
+            "line": 13,
+            "name": "user sets the countries to response using \"https://www.gmibank.com/api/tp-countries\"",
             "match": {
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.writeAllApplicantSInformationIntoAFile()"
+              "arguments": [
+                {
+                  "val": "\"https://www.gmibank.com/api/tp-countries\"",
+                  "offset": 42
+                }
+              ],
+              "location": "gmiBank_team22.step_Definitions.US_26_Country_Update.user_sets_the_countries_to_response_using(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 700000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user validates updated country",
+            "match": {
+              "location": "gmiBank_team22.step_Definitions.US_26_Country_Update.user_validates_updated_country()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user saves the countries to correspondent files",
+            "match": {
+              "location": "gmiBank_team22.step_Definitions.US_26_Country_Update.user_saves_the_countries_to_correspondent_files()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "read all applicants in Application",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.readAllApplicantsInApplication()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 7000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "validate all Aplicant\u0027s numbers",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.validateAllAplicantSNumbers()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@US23_ReadAllApplicants"
-          },
-          {
-            "name": "@TC_001_AllApplicant\u0027sData"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 844000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "use the api endpoint https:\"https://www.gmibank.com/api/tp-account-registrations\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://www.gmibank.com/api/tp-account-registrations\"",
-                  "offset": 27
-                }
-              ],
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.useTheApiEndpointHttps(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 164000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Get all data deserialized into Java",
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.getAllDataDeserializedIntoJava()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-24T06:02:08.485Z",
-        "before": [
-          {
-            "result": {
-              "duration": 6223000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 15,
-        "name": "TC_002 verify Single Applicant\u0027s data",
-        "description": "",
-        "id": "system-should-allow-to-read-all-applicants-information;tc-002-verify-single-applicant-s-data",
-        "after": [
-          {
-            "result": {
-              "duration": 4167000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "gmiBank_team22.step_Definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 16,
-            "name": "verify first Applicant\u0027s id \u003c1251\u003e",
+            "name": "user validates the countries",
             "match": {
-              "arguments": [
-                {
-                  "val": "1251",
-                  "offset": 29
-                }
-              ],
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifyFirstApplicantSId(int)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "verify second Applicant\u0027s ssn \"124-45-3422\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"124-45-3422\"",
-                  "offset": 30
-                }
-              ],
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifySecondApplicantSSsn(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "verify third Applicant\u0027s firstName \"customer\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"customer\"",
-                  "offset": 35
-                }
-              ],
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifyThirdApplicantSFirstName(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "verify fourth Applicant\u0027s lastName \"techproed\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"techproed\"",
-                  "offset": 35
-                }
-              ],
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifyFourthApplicantSLastName(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "verify fifth Applicant\u0027s address \"Gallows road 8765\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Gallows road 8765\"",
-                  "offset": 33
-                }
-              ],
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifyFifthApplicantSAddress(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "verify sixth Applicant\u0027s mobilePhoneNumber \"111-222-3333\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"111-222-3333\"",
-                  "offset": 43
-                }
-              ],
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifySixthApplicantSMobilePhoneNumber(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "verify seventh Applicant\u0027s userId  \u003c1555\u003e",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1555",
-                  "offset": 36
-                }
-              ],
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifySeventhApplicantSUserId(int)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "verify eighth Applicant\u0027s userName \"ali\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"ali\"",
-                  "offset": 35
-                }
-              ],
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifyEighthApplicantSUserName(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "verify nineth Applicant\u0027semail  \"peter@john.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"peter@john.com\"",
-                  "offset": 32
-                }
-              ],
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifyNinethApplicantSemail(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "verify tenth Applicant\u0027s createDate \"2020-11-01T07:28:16.796Z\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"2020-11-01T07:28:16.796Z\"",
-                  "offset": 36
-                }
-              ],
-              "location": "gmiBank_team22.step_Definitions.US_23_Applicants_info_StepDef.verifyTenthApplicantSCreateDate(java.lang.String)"
+              "location": "gmiBank_team22.step_Definitions.US_26_Country_Update.user_validates_the_countries()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US23_ReadAllApplicants"
-          },
-          {
-            "name": "@TC_002_AllApplicant\u0027s_1by1"
+            "name": "@CountryDiffer"
           }
         ]
       }
     ],
-    "name": "System should allow to read all Applicants information",
+    "name": "update of countries",
     "description": "",
-    "id": "system-should-allow-to-read-all-applicants-information",
+    "id": "update-of-countries",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US_23_Applicant_Info.feature",
+    "uri": "file:src/test/resources/features/US_26_updateDifferent.feature",
     "tags": [
       {
-        "name": "@US23_ReadAllApplicants",
+        "name": "@CountryDiffer",
         "type": "Tag",
         "location": {
           "line": 1,
