@@ -30,3 +30,4 @@ Feature: User logs in
   Scenario: cancel log in
     When cancel sign in
     Then user at home page
+
