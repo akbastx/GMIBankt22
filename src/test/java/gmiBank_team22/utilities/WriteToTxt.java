@@ -1,7 +1,7 @@
 package gmiBank_team22.utilities;
 
 
-import gmiBank_team22.pojo.Applicants;
+import gmiBank_team22.pojo.pojos.Applicants;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

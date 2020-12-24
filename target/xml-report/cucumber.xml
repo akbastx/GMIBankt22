@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="25.142">
-<testcase classname="System should allow to read all Applicants information" name="Verify to be able read all Applicant's data" time="14.708">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="24.448">
+<testcase classname="System should allow to read all Applicants information" name="Verify to be able read all Applicant's data" time="12.591">
 <system-out><![CDATA[Given use the api endpoint https:"https://www.gmibank.com/api/tp-account-registrations".passed
 Then Get all data deserialized into Java....................................passed
 And write all Applicant's information into a file...........................passed
@@ -8,7 +8,7 @@ Then read all applicants in Application.....................................pass
 Then validate all Aplicant's numbers........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="System should allow to read all Applicants information" name="TC_002 verify Single Applicant's data" time="10.075">
+<testcase classname="System should allow to read all Applicants information" name="TC_002 verify Single Applicant's data" time="11.408">
 <system-out><![CDATA[Given use the api endpoint https:"https://www.gmibank.com/api/tp-account-registrations".passed
 Then Get all data deserialized into Java....................................passed
 And verify first Applicant's id <1251>......................................passed
