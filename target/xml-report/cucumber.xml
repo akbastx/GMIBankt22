@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="25.142">
+<testcase classname="System should allow to read all Applicants information" name="Verify to be able read all Applicant's data" time="14.708">
+<system-out><![CDATA[Given use the api endpoint https:"https://www.gmibank.com/api/tp-account-registrations".passed
+Then Get all data deserialized into Java....................................passed
+And write all Applicant's information into a file...........................passed
+Then read all applicants in Application.....................................passed
+Then validate all Aplicant's numbers........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="System should allow to read all Applicants information" name="TC_002 verify Single Applicant's data" time="10.075">
+<system-out><![CDATA[Given use the api endpoint https:"https://www.gmibank.com/api/tp-account-registrations".passed
+Then Get all data deserialized into Java....................................passed
+And verify first Applicant's id <1251>......................................passed
+And verify second Applicant's ssn "124-45-3422".............................passed
+And verify third Applicant's firstName "customer"...........................passed
+And verify fourth Applicant's lastName "techproed"..........................passed
+And verify fifth Applicant's address "Gallows road 8765"....................passed
+And verify sixth Applicant's mobilePhoneNumber "111-222-3333"...............passed
+And verify seventh Applicant's userId  <1555>...............................passed
+And verify eighth Applicant's userName "ali"................................passed
+And verify nineth Applicant'semail  "peter@john.com"........................passed
+Then verify tenth Applicant's createDate "2020-11-01T07:28:16.796Z".........passed
+]]></system-out>
+</testcase>
+</testsuite>

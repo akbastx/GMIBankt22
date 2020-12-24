@@ -1,5 +1,8 @@
 package gmiBank_team22.pojo;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Applicants {
     private int id;
     private  String ssn;
@@ -9,6 +12,7 @@ public class Applicants {
     private String mobilePhoneNumber;
     private int userId;
     private String userName;
+    private String email;
 
     public int getId() {
         return id;
@@ -83,32 +87,12 @@ public class Applicants {
     }
 
     public String getCreateDate() {
-        return CreateDate;
+        return createDate;
     }
 
     public void setCreateDate(String createDate) {
-        CreateDate = createDate;
+        this.createDate = createDate;
     }
 
-    private String email;
-    private String CreateDate;
-
-
-
-    @Override
-    public String toString() {
-
-        return "Registrant{" +
-                "id=" + id +
-                ", ssn='" + ssn + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", address='" + address + '\'' +
-                ", mobilePhoneNumber='" + mobilePhoneNumber + '\'' +
-                ", userId='" + userId + '\'' +
-                ", userName='" + userName + '\'' +
-                ", email='" + email + '\'' +
-                ", createDate='" + CreateDate + '\'' +
-                '}';
-    }
+    private String createDate;
 }
