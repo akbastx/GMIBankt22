@@ -2,11 +2,11 @@ package gmiBank_team22.step_Definitions;
 
 import gmiBank_team22.utilities.ConfigurationReader;
 
-import gmiBank_team22.utilities.WriteToTxt;
 import io.cucumber.java.en.*;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.junit.Assert;
 
 
 import java.util.List;
@@ -29,10 +29,13 @@ public class US_021_AllCountriesAPI_StepDefinitions {
                         get(string);
     }
 
+
     @Then("get all countries")
     public void get_all_countries() {
         json = response.jsonPath();
         allCountriesData = json.getList("$");
+
+        Assert.assertNotNull(allCountriesData);
 
         //read all countries
         System.out.println(allCountriesData);
@@ -43,7 +46,6 @@ public class US_021_AllCountriesAPI_StepDefinitions {
         //read 5th country id=> 18948
         System.out.println(allCountriesData.get(4).get("id"));
         Integer expectedId = (int) allCountriesData.get(4).get("id");
-
 
         //read 8th country name => Dominic
         System.out.println(allCountriesData.get(7).get("name"));
@@ -67,8 +69,5 @@ public class US_021_AllCountriesAPI_StepDefinitions {
 
 
     }
-
-
-
 
 }

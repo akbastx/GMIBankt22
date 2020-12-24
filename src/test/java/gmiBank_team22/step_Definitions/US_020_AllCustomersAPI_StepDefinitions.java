@@ -12,7 +12,9 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Assert;
 
+import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -51,18 +53,6 @@ public class US_020_AllCustomersAPI_StepDefinitions {
         }
 
 
-
-    @Then("write to all customer's {string} and  {string} in a  file")
-    public void writeToAllCustomerSAndInAFile(String firstName, String lastName) throws Exception {
-        object = new ObjectMapper();
-        customers = object.readValue(response.asString(), Customer[].class);
-        for (int i = 0; i < customers.length; i++) {
-            System.out.println("Customer's first name: " + customers[i].getFirstName());
-            System.out.println("Customer's last name: " + customers[i].getLastName());
-        }
-        WriteToTxt.saveDataInFile("AllCustomerInfo.csv", customers);
-            }
-
     @Then("write the all customer's {string} and  {string} in a  file")
     public void writeTheAllCustomerSAndInAFile(String firstName, String lastName) throws Exception {
         object = new ObjectMapper();
@@ -71,13 +61,17 @@ public class US_020_AllCustomersAPI_StepDefinitions {
             System.out.println("Customer's first name: " + customers[i].getFirstName());
             System.out.println("Customer's last name: " + customers[i].getLastName());
         }
-        WriteToTxt.saveDataInFile("AllCustomerInfo.csv", customers);
+        File file= new File("AllCustomerInfo.csv");
+        if(file != null){
+            file.delete();
+        }
+        WriteToTxt.saveDataInFileFirstNameLastName("AllCustomerInfo.csv", customers);
 
     }
 
 
     @Then("write the all customer's {string} in a file and validate all the {string}")
-    public void writeTheAllCustomerSInAFileAndValidateAllThe(String actualSSN, String expectedSSN) throws Exception{
+    public void writeTheAllCustomerSInAFileAndValidateAllThe(String SSN, String ssn) throws Exception{
         List<String> allSSN = new ArrayList<>();
         object = new ObjectMapper();
         customers = object.readValue(response.asString(), Customer[].class);
@@ -85,11 +79,16 @@ public class US_020_AllCustomersAPI_StepDefinitions {
             allSSN.add(customers[i].getSsn());
         }
         System.out.println(allSSN);
+        File file= new File("allCustomerSsn.txt");
+        if(file != null){
+            file.delete();
+        }
 
         WriteToTxt.saveDataInFile("allCustomerSsn.txt", customers);
-        List<String> customerSNNList = ReadTxt.returnCustomerSNNList("allCustomerSsn.txt");
+        List<String> customerSSNList = ReadTxt.returnCustomerSNNList("allCustomerSsn.txt");
 
-        Assert.assertEquals("not verify", allSSN, customerSNNList);
+        Assert.assertEquals(" Customers' ssn not matched with the data",customerSSNList,allSSN);
+        System.out.println("Data validation has been successful");
     }
 
 
