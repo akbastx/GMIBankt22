@@ -156,6 +156,28 @@ public class Driver {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), timeout);
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
+    public static void waitAndSendText(WebElement element,String text,int timeout) {
+        for (int i = 0; i < timeout; i++) {
+            try {
+                element.sendKeys(text);
+                return;
+            } catch (WebDriverException e) {
+                wait(1);
+            }
+        }
+    }
+
+        public static void waitAndClick(WebElement element,int timeout){
+            for(int i=0;i<timeout;i++){
+                try {
+                    element.click();
+                    return;
+                }catch (WebDriverException e){
+                    wait(1);
+                }
+            }
+
+    }
 
     public static void waitForPageToLoad(long timeOutInSeconds) {
         ExpectedCondition<Boolean> expectation = new ExpectedCondition<Boolean>() {
