@@ -1,22 +1,22 @@
 package gmiBank_team22.runners;
-
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"html:target/default-cucumber-reports",
-                "json:target/json-reports/cucumber.json",
-                "junit:target/xml-report/cucumber.xml"},
+        strict = true,
         features = "src/test/resources/features",
         glue = "gmiBank_team22/step_Definitions",
-        tags = "@US_004",
+        plugin = {
+                "html:target/default-cucumber-reports",
+                "json:target/json-reports/cucumber.json",
+                "junit:target/xml-report/cucumber.xml"
+        },
+        tags ="@CountryDiffer",
         dryRun = false
 
 
 )
-
-public class US_004_LogIn_Runner {
+public class US_26_Country_Update {
 }
