@@ -101,6 +101,8 @@ public class WriteToTxt {
             BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
             for (int i = 0; i < country.length; i++)
                 writer.append(country[i].getName() + "\n");
+        } catch (Exception e) {
+        }
 
     }
 
