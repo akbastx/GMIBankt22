@@ -7,6 +7,7 @@ import gmiBank_team22.pojos.States;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.util.List;
 
 public class WriteToTxt {
     public static void saveDataInFile(String fileName, Customer[] customers)  {
@@ -18,6 +19,17 @@ public class WriteToTxt {
         } catch(Exception e){
         }
     }
+
+    public static void saveDifferentUserInfoFromDataBase(String fileName, List<Object>allCustomerData)  {
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
+            for (int i=0;i<allCustomerData.size();i++)
+                writer.append(allCustomerData.get(i)+",\n");
+            writer.close();
+        } catch(Exception e){
+        }
+    }
+
     public static void saveDataInFileWithSSN(String fileName, Customer customer)  {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
