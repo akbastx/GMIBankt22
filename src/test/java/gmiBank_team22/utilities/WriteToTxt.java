@@ -96,26 +96,6 @@ public class WriteToTxt {
         }
     }
 
-<<<<<<< HEAD
-//    public static void saveDataInFile(String fileName, Country[] country) {
-//        try {
-//            BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
-//            for (int i = 0; i < country.length; i++)
-//                writer.append(country[i].getName() + "\n");
-//
-//    }
-//
-//    public static void saveDataInFileFirstNameLastName(String fileName, Customer[] customers) {
-//        try {
-//            BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
-//            for (int i = 0; i < customers.length; i++)
-//                writer.append(customers[i].getFirstName() + " , " + customers[i].getLastName() + "\n");
-//
-//            writer.close();
-//        } catch (Exception e) {
-//        }
-//    }
-=======
     public static void saveDataInFile(String fileName, Country[] country) {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
@@ -136,7 +116,6 @@ public class WriteToTxt {
         } catch (Exception e) {
         }
     }
->>>>>>> 55f0702169242fe252d9370195fecc377c25f740
 
 
 }

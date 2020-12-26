@@ -80,7 +80,7 @@ public class ReadTxt {
             try(BufferedReader br = new BufferedReader(new FileReader(filePath))) {
                 StringBuilder sb = new StringBuilder();
                 String line = br.readLine();
-                System.out.println(line);
+                //System.out.println(line);
                 int i=0;
                 while (line != null) {
                     States states=new States();
@@ -88,7 +88,7 @@ public class ReadTxt {
                     states.setId(Integer.parseInt(line.split(",")[1].trim()));
                     sb.append(System.lineSeparator());
                     line = br.readLine();
-                    System.out.println(i++);
+                    //System.out.println(i++);
 
                     all.add(states);
                 }
