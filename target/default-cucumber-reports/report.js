@@ -125,7 +125,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "verify first Applicant\u0027s id \u003c1251\u003e",
+  "name": "verify first Applicant\u0027s id \u003c1252\u003e",
   "keyword": "And "
 });
 formatter.match({
@@ -135,7 +135,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify second Applicant\u0027s ssn \"124-45-3422\"",
+  "name": "verify second Applicant\u0027s ssn \"765-56-4544\"",
   "keyword": "And "
 });
 formatter.match({
@@ -145,7 +145,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify third Applicant\u0027s firstName \"customer\"",
+  "name": "verify third Applicant\u0027s firstName \"settar\"",
   "keyword": "And "
 });
 formatter.match({
@@ -155,7 +155,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify fourth Applicant\u0027s lastName \"techproed\"",
+  "name": "verify fourth Applicant\u0027s lastName \"batch2\"",
   "keyword": "And "
 });
 formatter.match({
@@ -165,7 +165,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify fifth Applicant\u0027s address \"Gallows road 8765\"",
+  "name": "verify fifth Applicant\u0027s address \"Street 1234\"",
   "keyword": "And "
 });
 formatter.match({
@@ -175,7 +175,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify sixth Applicant\u0027s mobilePhoneNumber \"111-222-3333\"",
+  "name": "verify sixth Applicant\u0027s mobilePhoneNumber \"222-333-4444\"",
   "keyword": "And "
 });
 formatter.match({
@@ -185,7 +185,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify seventh Applicant\u0027s userId  \u003c1555\u003e",
+  "name": "verify seventh Applicant\u0027s userId  \u003c2151\u003e",
   "keyword": "And "
 });
 formatter.match({
@@ -195,7 +195,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify eighth Applicant\u0027s userName \"ali\"",
+  "name": "verify eighth Applicant\u0027s userName \"peterpan\"",
   "keyword": "And "
 });
 formatter.match({
@@ -205,7 +205,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify nineth Applicant\u0027semail  \"peter@john.com\"",
+  "name": "verify nineth Applicant\u0027semail  \"kalin54ibrahim@gmail.com\"",
   "keyword": "And "
 });
 formatter.match({
@@ -215,7 +215,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "verify tenth Applicant\u0027s createDate \"2020-11-01T07:28:16.796Z\"",
+  "name": "verify tenth Applicant\u0027s createDate \"2020-11-02T06:48:40.193Z\"",
   "keyword": "Then "
 });
 formatter.match({

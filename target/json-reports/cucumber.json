@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1958000000,
+              "duration": 1965000000,
               "status": "passed"
             },
             "line": 5,
@@ -29,7 +29,7 @@
           },
           {
             "result": {
-              "duration": 605000000,
+              "duration": 362000000,
               "status": "passed"
             },
             "line": 6,
@@ -42,11 +42,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-24T06:32:50.015Z",
+        "start_timestamp": "2020-12-26T04:33:44.028Z",
         "before": [
           {
             "result": {
-              "duration": 7431000000,
+              "duration": 5709000000,
               "status": "passed"
             },
             "match": {
@@ -61,7 +61,7 @@
         "after": [
           {
             "result": {
-              "duration": 3237000000,
+              "duration": 2294000000,
               "status": "passed"
             },
             "match": {
@@ -74,7 +74,7 @@
         "steps": [
           {
             "result": {
-              "duration": 483000000,
+              "duration": 340000000,
               "status": "passed"
             },
             "line": 10,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 6000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 12,
@@ -126,7 +126,7 @@
         "steps": [
           {
             "result": {
-              "duration": 465000000,
+              "duration": 2516000000,
               "status": "passed"
             },
             "line": 5,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 415000000,
+              "duration": 116000000,
               "status": "passed"
             },
             "line": 6,
@@ -157,11 +157,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-24T06:33:03.856Z",
+        "start_timestamp": "2020-12-26T04:33:54.783Z",
         "before": [
           {
             "result": {
-              "duration": 4967000000,
+              "duration": 11332000000,
               "status": "passed"
             },
             "match": {
@@ -176,7 +176,7 @@
         "after": [
           {
             "result": {
-              "duration": 3634000000,
+              "duration": 2323000000,
               "status": "passed"
             },
             "match": {
@@ -189,15 +189,15 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 16,
-            "name": "verify first Applicant\u0027s id \u003c1251\u003e",
+            "name": "verify first Applicant\u0027s id \u003c1252\u003e",
             "match": {
               "arguments": [
                 {
-                  "val": "1251",
+                  "val": "1252",
                   "offset": 29
                 }
               ],
@@ -207,15 +207,14 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 17,
-            "name": "verify second Applicant\u0027s ssn \"124-45-3422\"",
+            "name": "verify second Applicant\u0027s ssn \"765-56-4544\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"124-45-3422\"",
+                  "val": "\"765-56-4544\"",
                   "offset": 30
                 }
               ],
@@ -229,11 +228,11 @@
               "status": "passed"
             },
             "line": 18,
-            "name": "verify third Applicant\u0027s firstName \"customer\"",
+            "name": "verify third Applicant\u0027s firstName \"settar\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"customer\"",
+                  "val": "\"settar\"",
                   "offset": 35
                 }
               ],
@@ -243,15 +242,14 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 19,
-            "name": "verify fourth Applicant\u0027s lastName \"techproed\"",
+            "name": "verify fourth Applicant\u0027s lastName \"batch2\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"techproed\"",
+                  "val": "\"batch2\"",
                   "offset": 35
                 }
               ],
@@ -265,11 +263,11 @@
               "status": "passed"
             },
             "line": 20,
-            "name": "verify fifth Applicant\u0027s address \"Gallows road 8765\"",
+            "name": "verify fifth Applicant\u0027s address \"Street 1234\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Gallows road 8765\"",
+                  "val": "\"Street 1234\"",
                   "offset": 33
                 }
               ],
@@ -279,15 +277,14 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 21,
-            "name": "verify sixth Applicant\u0027s mobilePhoneNumber \"111-222-3333\"",
+            "name": "verify sixth Applicant\u0027s mobilePhoneNumber \"222-333-4444\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"111-222-3333\"",
+                  "val": "\"222-333-4444\"",
                   "offset": 43
                 }
               ],
@@ -297,15 +294,14 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 22,
-            "name": "verify seventh Applicant\u0027s userId  \u003c1555\u003e",
+            "name": "verify seventh Applicant\u0027s userId  \u003c2151\u003e",
             "match": {
               "arguments": [
                 {
-                  "val": "1555",
+                  "val": "2151",
                   "offset": 36
                 }
               ],
@@ -315,14 +311,15 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 23,
-            "name": "verify eighth Applicant\u0027s userName \"ali\"",
+            "name": "verify eighth Applicant\u0027s userName \"peterpan\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"ali\"",
+                  "val": "\"peterpan\"",
                   "offset": 35
                 }
               ],
@@ -335,11 +332,11 @@
               "status": "passed"
             },
             "line": 24,
-            "name": "verify nineth Applicant\u0027semail  \"peter@john.com\"",
+            "name": "verify nineth Applicant\u0027semail  \"kalin54ibrahim@gmail.com\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"peter@john.com\"",
+                  "val": "\"kalin54ibrahim@gmail.com\"",
                   "offset": 32
                 }
               ],
@@ -353,11 +350,11 @@
               "status": "passed"
             },
             "line": 25,
-            "name": "verify tenth Applicant\u0027s createDate \"2020-11-01T07:28:16.796Z\"",
+            "name": "verify tenth Applicant\u0027s createDate \"2020-11-02T06:48:40.193Z\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"2020-11-01T07:28:16.796Z\"",
+                  "val": "\"2020-11-02T06:48:40.193Z\"",
                   "offset": 36
                 }
               ],

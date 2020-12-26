@@ -82,7 +82,7 @@ public class US_23_Applicants_info_StepDef {
     public void validateAllAplicantSNumbers() {
         Integer applicantDataSize=allApplicantsFromData.size();
         Integer myDataApplicantSize =applicants.length;
-      //  System.out.println("How many applicant in application in server Data: "+applicantDataSize+"How many applicant in application in My Data: "+myDataApplicantSize);
+        System.out.println("How many applicant in application in server Data: "+applicantDataSize+"How many applicant in application in My Data: "+myDataApplicantSize);
         Assert.assertThat("Size's are not Equal", myDataApplicantSize, is(myDataApplicantSize));
     }
 
@@ -153,9 +153,9 @@ public class US_23_Applicants_info_StepDef {
     @And("verify seventh Applicant's userId  <{int}>")
     public void verifySeventhApplicantSUserId(int userId) {
         Integer actual= (Integer) allApplicantsFromData.get(6).get("userId");
-        // System.out.println("actual "+actual);
+         System.out.println("actual "+actual);
         int expected = userId;
-       //  System.out.println("expected "+expected);
+         System.out.println("expected "+expected);
         assertThat("UserId's are not Equal",actual,is(expected));
 
     }
@@ -163,30 +163,30 @@ public class US_23_Applicants_info_StepDef {
     @And("verify eighth Applicant's userName {string}")
     public void verifyEighthApplicantSUserName(String userName) {
         String actual = (String) allApplicantsFromData.get(7).get("userName");
-        //System.out.println("actual: " + actual);
+        System.out.println("actual: " + actual);
 
         String expected = userName;
-        // System.out.println("expected  : "+userName);
+         System.out.println("expected  : "+userName);
         assertThat("UserName's are not Equal",actual, is(expected));
     }
 
     @And("verify nineth Applicant'semail  {string}")
     public void verifyNinethApplicantSemail(String email) {
         String actual = (String) allApplicantsFromData.get(8).get("email");
-        //System.out.println("actual: " + actual);
+        System.out.println("actual: " + actual);
 
         String expected = email;
-       // System.out.println("expected  : "+email);
+        System.out.println("expected  : "+email);
         assertThat("Email's are not Equal",actual, is(expected));
     }
 
     @Then("verify tenth Applicant's createDate {string}")
     public void verifyTenthApplicantSCreateDate(String createDate) {
         String actual = (String) allApplicantsFromData.get(9).get("createDate");
-       // System.out.println("actual: " + actual);
+        System.out.println("actual: " + actual);
 
         String expected = createDate;
-       // System.out.println("expected  : "+createDate);
+        System.out.println("expected  : "+createDate);
         assertThat("CreateDate's are not Equal",actual, is(expected));
     }
 }
