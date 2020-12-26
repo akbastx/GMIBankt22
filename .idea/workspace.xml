@@ -23,21 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27801988-42e4-4b7a-9c01-68471d4afd0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_20_2020_9_27_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_20_2020_9_27_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allStatesNames.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allStatesNames.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/pages/US_0017_Admin_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/pojos/Admins_pojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/runners/US_017_Admins_Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/runners/US_024_CreateNewStateAPI_Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/US_017_Admin_StepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/US_024_CreateNewStateAPI_Step_Def.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_024_CreateNewStateAPI.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_AdminManagesUsers.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/US_020_AllCustomersAPI_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/US_020_AllCustomersAPI_StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/US_022_ReadState_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/US_022_ReadState_StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/US_26_Country_Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/US_26_Country_Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmiBank_team22/pojos/States.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/pojos/States.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/US_021_AllCountriesAPI_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/step_Definitions/US_021_AllCountriesAPI_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmiBank_team22/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gmiBank_team22/utilities/WriteToTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmiBank_team22/utilities/WriteToTxt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_022_ReadState.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US_022_ReadState.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmiBank_team22/pages/US_004_Login_Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmiBank_team22/pages/US_004_Login_Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmiBank_team22/runners/US_004_LogIn_Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmiBank_team22/runners/US_004_LogIn_Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmiBank_team22/step_Definitions/US_004_Login_StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmiBank_team22/step_Definitions/US_004_Login_StepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmiBank_team22/utilities/DataBaseUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmiBank_team22/utilities/DataBaseUtility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_021_AllCountriesAPI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US_021_AllCountriesAPI.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,22 +246,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="551" y="327" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1608517443486" />
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1608935815816">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1608956348451">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608935815816" />
-    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1608935815816">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608956348451" />
+    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1608956348451">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1608935815816" />
-    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1608935815816">
+    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1608956348451" />
+    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1608956348451">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1608935815816" />
-    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1608935815816">
+    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1608956348451" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1608956348451">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608935815816" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608956348451" />
     <state x="478" y="165" width="579" height="534" key="find.popup" timestamp="1608525333352">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
