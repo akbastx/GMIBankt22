@@ -8,6 +8,6 @@ Feature: US_24 System should allow to create new states using api endpoint
     Then validate "<state>" is created
     Examples: data
       | state |
-      | worldFL11    |
-      | worldFL22    |
-      | worldFL33    |
+      | worldFL1   |
+      | worldFL2   |
+      | worldFL3   |

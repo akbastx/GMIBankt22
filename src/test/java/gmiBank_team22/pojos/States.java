@@ -3,21 +3,11 @@ package gmiBank_team22.pojos;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.apache.commons.lang3.builder.ToStringBuilder;
-
-import java.util.HashMap;
-import java.util.Map;
-
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class States {
-
     private Integer id;
-
     private String name;
-
-    private Object tpcountry;
-
-    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-
+    private Country tpcountry;
 
     public Integer getId() {
         return id;
@@ -39,24 +29,15 @@ public class States {
     }
 
 
-    public Object getTpcountry() {
+    public Country getTpcountry() {
         return tpcountry;
     }
 
 
-    public void setTpcountry(Object tpcountry) {
+    public void setTpcountry(Country tpcountry) {
         this.tpcountry = tpcountry;
     }
 
-
-    public Map<String, Object> getAdditionalProperties() {
-        return this.additionalProperties;
-    }
-
-
-    public void setAdditionalProperty(String name, Object value) {
-        this.additionalProperties.put(name, value);
-    }
 
     public States() {
     }
@@ -64,20 +45,17 @@ public class States {
         this.id = id;
         this.name = name;
     }
-    public States(String name, Object tpcountry) {
+    public States(String name, Country tpcountry) {
         this.name = name;
         this.tpcountry = tpcountry;
     }
 
-    public States(Integer id, String name, Object tpcountry) {
+    public States(Integer id, String name, Country tpcountry) {
         this.id = id;
         this.name = name;
         this.tpcountry = tpcountry;
     }
 
 
-    public String toString() {
-        return new ToStringBuilder(this).append("id", id).append("name", name).append("tpcountry", tpcountry).append("additionalProperties", additionalProperties).toString();
-    }
 
 }
