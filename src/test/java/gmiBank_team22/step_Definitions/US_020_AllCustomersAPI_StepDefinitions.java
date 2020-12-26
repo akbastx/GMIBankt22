@@ -65,7 +65,7 @@ public class US_020_AllCustomersAPI_StepDefinitions {
         if(file != null){
             file.delete();
         }
-        WriteToTxt.saveDataInFileFirstNameLastName("AllCustomerInfo.csv", customers);
+//        WriteToTxt.saveDataInFileFirstNameLastName("AllCustomerInfo.csv", customers);
 
     }
 

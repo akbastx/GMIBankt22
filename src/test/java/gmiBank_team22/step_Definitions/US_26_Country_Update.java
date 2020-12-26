@@ -89,7 +89,7 @@ public class US_26_Country_Update {
         //it stores country id numbers in the txt file
         WriteToTxt.saveDataInFileInt("countries.id.info.txt",country);
         // it stores country names in the txt files
-        WriteToTxt.saveDataInFile("countries.name.info.txt",country);
+//        WriteToTxt.saveDataInFile("countries.name.info.txt",country);
 
 
 

@@ -25,14 +25,15 @@ public class US_022_ReadState_StepDefinitions {
     ObjectMapper object ;
     JsonPath json;
     Country country[];
+    String token ="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtam9obiIsImF1dGgiOiJST0xFX0VNUExPWUVFIiwiZXhwIjoxNjA5MDIxOTYxfQ.07tsOh3enze3gAurGvKX0C_uK8aBk94kx8HeZmpRq2WQB41HE-sI5Ox0c9fd8dOsc4rJJucqL70JN4El2hrNeg";
 
     @Given("use the api endpoint {string} to read all state data")
     public void use_the_api_endpoint_to_read_all_state_data(String x) {
         response=
-                given().auth().oauth2(ConfigurationReader.getProperty("token")).
+                given().auth().oauth2(token).
                         contentType(ContentType.JSON).
                         when().get(x);
-//        response.then().contentType(ContentType.JSON).statusCode(200);
+        response.then().contentType(ContentType.JSON).statusCode(200);
         ;
         response.prettyPeek();
         json=response.jsonPath();
@@ -59,7 +60,7 @@ public class US_022_ReadState_StepDefinitions {
         WriteToTxt.saveAllStates("allStatesNames.csv",states);
 
 
-        ExcelUtil d = new ExcelUtil("sdsds","lale");
+//        ExcelUtil d = new ExcelUtil("src/test/resources/gmiBank_team22 testusers.xlsx","lale");
 
 
 

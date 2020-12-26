@@ -11,10 +11,10 @@ import org.openqa.selenium.TakesScreenshot;
 
 public class Hooks {
 
-    @Before
-    public void setUp(){
-        Driver.homepage();
-    }
+//    @Before
+//    public void setUp(){
+//        Driver.homepage();
+//    }
 
     @After
     public void tearDown(Scenario scenario){

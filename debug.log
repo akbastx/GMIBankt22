@@ -31,3 +31,5 @@
 [1221/001649.073:ERROR:file_io_win.cc(180)] CreateFile C:\Users\felat\AppData\Local\Temp\scoped_dir18240_1357078846\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
 [1221/001818.376:ERROR:file_io_win.cc(180)] CreateFile C:\Users\felat\AppData\Local\Temp\scoped_dir19672_143655115\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
 [1221/010532.568:ERROR:file_io_win.cc(180)] CreateFile C:\Users\felat\AppData\Local\Temp\scoped_dir19156_854338853\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[1225/173658.150:ERROR:file_io_win.cc(180)] CreateFile C:\Users\felat\AppData\Local\Temp\scoped_dir29256_1875193304\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[1225/173711.311:ERROR:file_io_win.cc(180)] CreateFile C:\Users\felat\AppData\Local\Temp\scoped_dir9024_1136764721\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)

@@ -11,7 +11,7 @@
 @US_006_ReadState
 Feature: System should allow to read states using "tp-states" end point.
   Background:
-    Given use the api endpoint "/tp-states" to read all state data
+    Given use the api endpoint "https://www.gmibank.com/api/tp-states" to read all state data
 
 @wip
   Scenario:
