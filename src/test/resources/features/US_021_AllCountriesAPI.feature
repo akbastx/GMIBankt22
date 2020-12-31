@@ -13,10 +13,11 @@ Feature: US21 Countries
 
 
 
-  Scenario: read countries data name is
+  Scenario: read countries id is
     Then assert countries one by one:
-      |new zeland|
-      |HIMALAYALAYA|
-      |DOMINIC|
-      |Poland |
-      |Poland |
+      |22312|
+      |22314|
+      |22315|
+      |22316|
+      |22317|
+

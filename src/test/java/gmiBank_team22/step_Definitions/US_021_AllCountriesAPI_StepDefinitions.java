@@ -5,10 +5,12 @@ import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Assert;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+
+import java.util.*;
+
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.MatcherAssert.*;
+import static org.hamcrest.Matchers.*;
 
 public class US_021_AllCountriesAPI_StepDefinitions {
 
@@ -16,7 +18,7 @@ public class US_021_AllCountriesAPI_StepDefinitions {
     Response response;
     JsonPath json;
     static List<Map<String, Object>> allCountriesData;
-    static int size;
+
 
     @Given("read all countries info using api end point {string}")
     public void read_all_countries_info_using_api_end_point(String string) {
@@ -28,12 +30,14 @@ public class US_021_AllCountriesAPI_StepDefinitions {
     }
 
 
+
+
+
     @Then("get all countries")
     public void get_all_countries() {
         json = response.jsonPath();
         allCountriesData = json.getList("$");
-        // System.out.println(allCountriesData);
-
+        System.out.println(allCountriesData);
     }
 
     @Then("assert all countries")
@@ -42,22 +46,26 @@ public class US_021_AllCountriesAPI_StepDefinitions {
     }
 
     @Then("assert countries one by one:")
-    public void assert_countries_one_by_one(List<String> expectedCountries) {
+    public void assert_countries_one_by_one(List<Integer> expectedCountries) {
 
-        List<String> actual= new ArrayList<String>();
+        //Set<Integer> actual= new HashSet<int>();
+        List<Integer> actual= new ArrayList<>();
 
         for(int i=0; i<=4; i++){
-            actual.add(allCountriesData.get(i).get("name").toString());
+            actual.add((Integer) allCountriesData.get(i).get("id"));
         }
-
-
 
         System.out.println("actual" + actual);
         System.out.println("expected" +expectedCountries);
+
         Assert.assertEquals(actual,expectedCountries);
         //Assert.assertTrue(actual.contains(expectedCountries));
+        //assertThat(actual, hasItems(expectedCountries));
+
+
 
     }
+
 
 }
 
@@ -118,3 +126,4 @@ public class US_021_AllCountriesAPI_StepDefinitions {
 //
 //
 //    }
+
