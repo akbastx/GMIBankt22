@@ -12,12 +12,11 @@ import org.junit.Assert;
 import static io.restassured.RestAssured.given;
 public class US_025_CreateCountry_StepDefinitions {
 
-    Response responseFirst;
 
 
     @Given("user sets the countries to response using api end point {string}")
     public void user_sets_the_countries_to_response_using_api_end_point(String endpoint) {
-      responseFirst=given().headers("Authorization","Bearer " + ConfigurationReader.getProperty("token"),
+      Response responseFirst =given().headers("Authorization","Bearer " + ConfigurationReader.getProperty("token"),
                 "Content-Type",
                 ContentType.JSON,
                 "Accept",
